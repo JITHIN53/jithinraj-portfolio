@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jithin Raj — Product & Technology Professional</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+<base target="_blank">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">JR.</a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="pulse"></span>
+                Open to opportunities in Western Europe
+            </div>
+            <h1 class="hero-title">
+                Hi, I'm <span class="highlight">Jithin Raj</span>
+            </h1>
+            <p class="hero-subtitle">
+                Product & Technology Professional bridging <span class="text-gradient">technical depth</span> with <span class="text-gradient">strategic business thinking</span>
+            </p>
+            <div class="hero-tags">
+                <span class="tag">Junior Product Manager</span>
+                <span class="tag">Business Analyst</span>
+                <span class="tag">Digital Marketing</span>
+                <span class="tag">Mobile Development</span>
+            </div>
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="#experience" class="btn btn-outline">View My Work</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">3+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">2</span>
+                    <span class="stat-label">Apps Launched</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">25%</span>
+                    <span class="stat-label">Traffic Growth</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Professional Summary</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-card main-card">
+                    <div class="card-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Who I Am</h3>
+                    <p>Vilnius-based product and technology professional with a Computer Science Engineering background and an MBA in Organisational Innovation. I bring a unique blend of technical expertise and strategic business acumen to every project.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>What I Do</h3>
+                    <p>End-to-end mobile app development, data-driven digital marketing, and Agile delivery — with measurable results across user acquisition, operational efficiency, and product performance.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>What I'm Seeking</h3>
+                    <p>A Junior Product Manager or Business Analyst role in Western Europe. Eligible for EU Blue Card and open to relocation.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Continuous Growth</h3>
+                    <p>Continuously upskilling through industry certifications in digital marketing, paid advertising, and AI-powered marketing tools.</p>
+                </div>
+            </div>
+            <div class="quick-info">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Vilnius, Lithuania</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-passport"></i>
+                    <span>Indian Citizen | EU Blue Card Eligible</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-globe-europe"></i>
+                    <span>Open to Relocation</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Career Path</span>
+                <h2 class="section-title">Work Experience</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Digital Marketing Intern</h3>
+                                <span class="company">Inmakes Infotech</span>
+                            </div>
+                            <span class="timeline-date">Jan 2024 – Jun 2024</span>
+                        </div>
+                        <span class="location"><i class="fas fa-map-marker-alt"></i> Kochi, India</span>
+                        <ul class="timeline-details">
+                            <li><strong>SEO Strategy:</strong> Achieved a <span class="metric">25% increase</span> in organic traffic within 6 months through targeted keyword optimisation and content updates.</li>
+                            <li><strong>AI-Driven Email Marketing:</strong> Implemented automation resulting in a <span class="metric">30% uplift</span> in click-through rates and improved customer retention.</li>
+                            <li><strong>A/B Testing:</strong> Executed tests on Google and Meta ad campaigns, reallocating budget via analytics to achieve a <span class="metric">15% increase in ROI</span>.</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">SEO/SEM</span>
+                            <span class="tech-tag">Google Ads</span>
+                            <span class="tech-tag">Meta Ads</span>
+                            <span class="tech-tag">Email Automation</span>
+                            <span class="tech-tag">A/B Testing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Software Developer</h3>
+                                <span class="company">Swarashiya Solutions</span>
+                            </div>
+                            <span class="timeline-date">Jan 2023 – Dec 2023</span>
+                        </div>
+                        <span class="location"><i class="fas fa-map-marker-alt"></i> Coimbatore, India</span>
+                        <ul class="timeline-details">
+                            <li><strong>Agile Delivery:</strong> Managed full project lifecycle using Agile methodologies, <span class="metric">reducing delivery timelines by 30%</span> and improving cross-functional collaboration.</li>
+                            <li><strong>Real-time Features:</strong> Engineered chat features and user analytics dashboards using Firebase, improving daily active user retention.</li>
+                            <li><strong>Performance Optimisation:</strong> Refactored code to <span class="metric">reduce initial load time by 20%</span>, enhancing overall User Experience.</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">Dart</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Agile/Scrum</span>
+                            <span class="tech-tag">UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Application Developer</h3>
+                                <span class="company">Zakysoft Solutions</span>
+                            </div>
+                            <span class="timeline-date">Sep 2021 – Jan 2023</span>
+                        </div>
+                        <span class="location"><i class="fas fa-map-marker-alt"></i> Kozhikode, India</span>
+                        <ul class="timeline-details">
+                            <li><strong>Full Lifecycle Ownership:</strong> Led end-to-end development of two cross-platform mobile apps (Farawlah E-Commerce & 4U Delivery) using Flutter/Dart, launching on both iOS and Android.</li>
+                            <li><strong>Operational Impact:</strong> <span class="metric">Improved client logistics efficiency by 35%</span> through intuitive UI/UX design and reliable backend services.</li>
+                            <li><strong>Product Ownership:</strong> Delivered from requirements gathering and UI/UX design to deployment and post-launch performance monitoring.</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">Dart</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">iOS</span>
+                            <span class="tech-tag">Android</span>
+                            <span class="tech-tag">REST APIs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-shopping-bag"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="project-year">2022</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Farawlah</h3>
+                            <span class="project-type">E-Commerce Mobile App</span>
+                        </div>
+                        <p class="project-description">Cross-platform e-commerce application with product listings, cart, checkout, and order tracking. Led full lifecycle from requirements gathering to App Store and Play Store deployment.</p>
+                        <div class="project-tech">
+                            <span class="tech-pill">Flutter</span>
+                            <span class="tech-pill">Dart</span>
+                            <span class="tech-pill">Firebase</span>
+                            <span class="tech-pill">iOS</span>
+                            <span class="tech-pill">Android</span>
+                        </div>
+                        <div class="project-meta">
+                            <span><i class="fas fa-mobile-alt"></i> iOS & Android</span>
+                            <span><i class="fas fa-code-branch"></i> Full Lifecycle</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-shipping-fast"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="project-year">2022</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>4U Delivery</h3>
+                            <span class="project-type">Logistics & Delivery App</span>
+                        </div>
+                        <p class="project-description">On-demand delivery platform with real-time tracking and driver dispatch. Reduced client logistics processing time by 35% through optimised workflows and intuitive design.</p>
+                        <div class="project-tech">
+                            <span class="tech-pill">Flutter</span>
+                            <span class="tech-pill">Dart</span>
+                            <span class="tech-pill">Firebase</span>
+                            <span class="tech-pill">Real-time Tracking</span>
+                        </div>
+                        <div class="project-meta">
+                            <span><i class="fas fa-chart-line"></i> 35% Efficiency Gain</span>
+                            <span><i class="fas fa-map-marked-alt"></i> Live Tracking</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education" id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Academic Background</span>
+                <h2 class="section-title">Education</h2>
+            </div>
+            <div class="education-grid">
+                <div class="edu-card">
+                    <div class="edu-badge">Current</div>
+                    <div class="edu-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="edu-content">
+                        <h3>MBA in Organisational Innovation & Management</h3>
+                        <span class="edu-level">EQF Level 7</span>
+                        <span class="edu-school">Kazimieras Simonavicius University</span>
+                        <span class="edu-location"><i class="fas fa-map-marker-alt"></i> Vilnius, Lithuania</span>
+                        <span class="edu-date">Sep 2024 – Feb 2026</span>
+                        <div class="edu-thesis">
+                            <strong>Thesis:</strong> "The Impact of Remote Work on Organisational Innovation and Productivity"
+                        </div>
+                        <div class="edu-coursework">
+                            <span class="course-tag">Strategic Management</span>
+                            <span class="course-tag">Digital Transformation</span>
+                            <span class="course-tag">Leadership</span>
+                            <span class="course-tag">Data-Driven Decision Making</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="edu-card">
+                    <div class="edu-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="edu-content">
+                        <h3>Bachelor of Engineering — Computer Science</h3>
+                        <span class="edu-level">EQF Level 6</span>
+                        <span class="edu-school">Dhanalakshmi Srinivasan College of Engineering</span>
+                        <span class="edu-location"><i class="fas fa-map-marker-alt"></i> Coimbatore, India</span>
+                        <span class="edu-date">Aug 2017 – Mar 2021</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Expertise</span>
+                <h2 class="section-title">Core Competencies</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-chess-king"></i>
+                        </div>
+                        <h3>Product & Strategy</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Product Lifecycle Management</span>
+                        <span class="skill-tag">Go-to-Market Strategy</span>
+                        <span class="skill-tag">Agile Project Management</span>
+                        <span class="skill-tag">Requirements Gathering</span>
+                        <span class="skill-tag">Stakeholder Management</span>
+                        <span class="skill-tag">Market & Competitor Analysis</span>
+                        <span class="skill-tag">KPI Definition</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <h3>Digital Marketing & Analytics</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">SEO/SEM</span>
+                        <span class="skill-tag">Google Analytics</span>
+                        <span class="skill-tag">Meta Ads</span>
+                        <span class="skill-tag">A/B Testing</span>
+                        <span class="skill-tag">Conversion Rate Optimisation</span>
+                        <span class="skill-tag">Email Marketing Automation</span>
+                        <span class="skill-tag">AI-Powered Marketing Tools</span>
+                        <span class="skill-tag">Paid Digital Advertising</span>
+                        <span class="skill-tag">Data Visualisation</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Technical</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Flutter</span>
+                        <span class="skill-tag">Dart</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">UI/UX Principles</span>
+                        <span class="skill-tag">WordPress</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="languages-section">
+                <h3><i class="fas fa-language"></i> Languages</h3>
+                <div class="languages-grid">
+                    <div class="language-item">
+                        <span class="lang-name">English</span>
+                        <div class="lang-level">
+                            <div class="lang-bar">
+                                <div class="lang-fill" style="width: 90%"></div>
+                            </div>
+                            <span class="lang-label">C1 — Professional</span>
+                        </div>
+                    </div>
+                    <div class="language-item">
+                        <span class="lang-name">Malayalam</span>
+                        <div class="lang-level">
+                            <div class="lang-bar">
+                                <div class="lang-fill" style="width: 100%"></div>
+                            </div>
+                            <span class="lang-label">Native</span>
+                        </div>
+                    </div>
+                    <div class="language-item">
+                        <span class="lang-name">Hindi</span>
+                        <div class="lang-level">
+                            <div class="lang-bar">
+                                <div class="lang-fill" style="width: 75%"></div>
+                            </div>
+                            <span class="lang-label">B2 — Professional Working</span>
+                        </div>
+                    </div>
+                    <div class="language-item">
+                        <span class="lang-name">Lithuanian</span>
+                        <div class="lang-level">
+                            <div class="lang-bar">
+                                <div class="lang-fill" style="width: 20%"></div>
+                            </div>
+                            <span class="lang-label">A1 — Basic (Learning)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="certificates-section">
+                <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                <div class="certs-grid">
+                    <div class="cert-card">
+                        <div class="cert-logo">
+                            <i class="fab fa-google"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h4>Fundamentals of Digital Marketing</h4>
+                            <span>Google — Aug 2024</span>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-logo">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h4>Digital Marketing Certified</h4>
+                            <span>HubSpot Academy — Aug 2024</span>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-logo">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h4>Digital Advertising 101</h4>
+                            <span>Semrush Academy — Aug 2024</span>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-logo">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h4>AI-Powered Marketer</h4>
+                            <span>Semrush Academy — Aug 2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Let's Connect</span>
+                <h2 class="section-title">Get In Touch</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Ready for the next challenge?</h3>
+                    <p>I'm currently seeking Junior Product Manager or Business Analyst opportunities in Western Europe. If you think I'd be a good fit for your team, let's talk!</p>
+                    <div class="contact-details">
+                        <a href="mailto:jithinraj492@gmail.com" class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">jithinraj492@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="tel:+37063892644" class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <span class="contact-label">Phone</span>
+                                <span class="contact-value">(+370) 638 92644</span>
+                            </div>
+                        </a>
+                        <a href="https://linkedin.com/in/jithin-raj-2412001b8" target="_blank" class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                            <div>
+                                <span class="contact-label">LinkedIn</span>
+                                <span class="contact-value">linkedin.com/in/jithin-raj-2412001b8</span>
+                            </div>
+                        </a>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <span class="contact-label">Location</span>
+                                <span class="contact-value">Vilnius, Lithuania</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-status">
+                    <div class="status-card">
+                        <div class="status-icon">
+                            <i class="fas fa-passport"></i>
+                        </div>
+                        <h4>Work Authorization</h4>
+                        <p>Eligible for <strong>EU Blue Card</strong></p>
+                        <span class="status-badge available">Open to Relocation</span>
+                    </div>
+                    <div class="status-card">
+                        <div class="status-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h4>Availability</h4>
+                        <p>Seeking roles in <strong>Western Europe</strong></p>
+                        <span class="status-badge available">Available</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="footer-logo">JR.</span>
+                    <p>Product & Technology Professional</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#education">Education</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://linkedin.com/in/jithin-raj-2412001b8" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:jithinraj492@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:+37063892644"><i class="fas fa-phone"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p> Jithin Raj. Crafted with care.</p>
+                <p class="last-updated">Last updated: March 2026</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
